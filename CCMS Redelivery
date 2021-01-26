@@ -1,1 +1,172 @@
-<mxfile host="app.diagrams.net" modified="2021-01-26T06:49:23.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" version="14.2.7" etag="1KM8iw7UYvX5qaMZLT9v" type="github"><diagram id="a0WJ4wwUfa0o7q43ijUK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-26T09:36:18.616Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="O-NXwWSCn9IqMUZSmjhm" version="14.2.7" type="github">
+  <diagram id="a0WJ4wwUfa0o7q43ijUK" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-2" value="Get All requests&lt;br&gt;&lt;br&gt;-Redeliver&lt;br&gt;-Change Del Address&lt;br&gt;-Change Del Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="795" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-4" value="Request:&lt;br&gt;contractNumber&lt;br&gt;&lt;br&gt;&lt;br&gt;Receives:&lt;br&gt;Customer Info&lt;br&gt;Addresses&lt;br&gt;Errors&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="400" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-5" value="&lt;b&gt;OSB WS&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;cardInfo&lt;br&gt;partyService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="280" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-6" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="915" y="310" as="sourcePoint" />
+            <mxPoint x="1005" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-7" value="CCMS Backend&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="250" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-8" value="BSL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-9" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1005" y="370" as="sourcePoint" />
+            <mxPoint x="915" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-10" value="&lt;b&gt;CCMS WebApp&lt;/b&gt;&lt;br&gt;Request Module&lt;br&gt;&lt;br&gt;Redelivery&lt;br&gt;Change Delivery Address&lt;br&gt;Change Delivery Date" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="460" y="790" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-11" value="CCMS Front End" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="240" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-12" value="&lt;b&gt;CCMS DB&lt;br&gt;&lt;br&gt;&lt;/b&gt;CCMS_HISTORY_LOG&lt;br&gt;CCMS_BATCH_REQUEST&lt;br&gt;CCMS_CARD_DELIVERY_STATUS&lt;br&gt;CCMS_CARD_DELIVERY_STATUS_HIST&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Error Logs table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="520" width="240" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-13" value="" style="endArrow=classic;html=1;exitX=-0.008;exitY=0.228;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_v3dw1ztd-o1_4p0V3wk-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="695" y="480" as="sourcePoint" />
+            <mxPoint x="915" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-14" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="635" y="304.5" as="sourcePoint" />
+            <mxPoint x="725" y="304.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-15" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="725" y="364.5" as="sourcePoint" />
+            <mxPoint x="635" y="364.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-16" value="request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="280" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-17" value="request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="925" y="280" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-18" value="response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="925" y="340" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-19" value="response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="325" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-21" value="2PM job&lt;br&gt;&lt;br&gt;create 2GO csv request files&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="940" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-23" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="805" y="420" as="sourcePoint" />
+            <mxPoint x="1005" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-24" value="retrieve&lt;br&gt;card status&lt;br&gt;for validation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="925" y="435" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-26" value="save&amp;nbsp; data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="560" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-27" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1144.4099999999999" y="910" as="sourcePoint" />
+            <mxPoint x="1144.4099999999999" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-28" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1184.4099999999999" y="840" as="sourcePoint" />
+            <mxPoint x="1184.4099999999999" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-33" value="BSL&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="280" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-34" value="request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="290" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-35" value="response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="350" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-36" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1270" y="314.5" as="sourcePoint" />
+            <mxPoint x="1360" y="314.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-37" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1360" y="374.5" as="sourcePoint" />
+            <mxPoint x="1270" y="374.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-38" value="request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="804.5" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-39" value="response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="864.5" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-40" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="645" y="829" as="sourcePoint" />
+            <mxPoint x="735" y="829" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-41" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="735" y="889" as="sourcePoint" />
+            <mxPoint x="645" y="889" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-42" value="GerPersonInfo&lt;br&gt;Save request&lt;br&gt;&lt;br&gt;-Redeliver&lt;br&gt;-Change Del Address&lt;br&gt;-Change Del Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="290" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-43" value="&lt;b&gt;CCMS WebApp&lt;/b&gt;&lt;br&gt;&lt;br&gt;Request Tool&lt;br&gt;Archive tracker&lt;br&gt;Del status" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="470" y="290" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-44" value="Post Order&lt;br&gt;to&lt;br&gt;NV API&lt;br&gt;--------------------------&lt;br&gt;&lt;br&gt;NV RTS&lt;br&gt;and post order again" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="600" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-46" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="710" as="sourcePoint" />
+            <mxPoint x="940" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-47" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="949.9999999999995" y="804.5" as="sourcePoint" />
+            <mxPoint x="1040" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-48" value="" style="endArrow=classic;html=1;exitX=0.097;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_v3dw1ztd-o1_4p0V3wk-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1039.9999999999995" y="864.5" as="sourcePoint" />
+            <mxPoint x="949.9999999999995" y="864.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v3dw1ztd-o1_4p0V3wk-49" value="Remove redeliver validation&lt;br&gt;impact on NV 1st leg?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="545" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
